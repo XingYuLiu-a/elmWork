@@ -1,0 +1,57 @@
+
+@font-face {
+  font-family: "Iconify Explorer Font";
+  src: url("./iconfont.eot");
+  src: url("./iconfont.eot") format("embedded-opentype"),
+       url("./iconfont.ttf") format("truetype"),
+       url("./iconfont.woff") format("woff"),
+       url("./iconfont.woff2") format("woff2"),
+       url("./iconfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.i {
+  font-family: "Iconify Explorer Font" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.i.ic\:round-star:before {
+content: "\e001";
+}
+
+.i.icon-park-solid\:local-two:before {
+content: "\e002";
+}
+
+.i.iconoir\:page:before {
+content: "\e003";
+}
+
+.i.ion\:home:before {
+content: "\e004";
+}
+
+.i.material-symbols\:search:before {
+content: "\e005";
+}
+
+.i.mdi\:filter:before {
+content: "\e006";
+}
+
+.i.ooui\:down-triangle:before {
+content: "\e007";
+}
+
+.i.ph\:compass-bold:before {
+content: "\e008";
+}
+
+.i.system-uicons\:user-male:before {
+content: "\e009";
+}
+

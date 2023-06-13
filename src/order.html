@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>饿了么 确认订单</title>
+  <link rel="stylesheet" href="../dist/output.css">
+  <link rel="stylesheet" href="css/iconfont (1)/iconfont.css">
+
+</head>
+<body>
+<section class="flex h-[250vw] flex-col">
+  <!--确认订单-->
+  <header class="h-[12vw] w-[100vw] bg-[#0097FF] fixed text-[5vw] text-center  leading-[12vw] text-white">
+    确认订单
+  </header>
+  <!--主体-->
+  <main>
+    <!--订单配送地址-->
+    <div class="p-[2vw] bg-[#0097FF] flex mt-[12vw] h-[22vw] flex-col justify-between text-white text-[3vw]">
+      <div>订单配送至:</div>
+      <div class="text-[5vw] font-[700] flex justify-between">
+        <p>沈阳市浑南区智慧四街1-121号</p>
+        <p>></p>
+      </div>
+      <div class="flex">孙兴平先生<p class="ml-[1vw]">12345678901</p></div>
+    </div>
+    <!--产品目录,配送费-->
+    <div class="flex flex-col text-[3.5vw] text-[#666]">
+      <div class="h-[12vw] pl-[3vw] leading-[12vw] text-[#666] text-[4vw] font-[700] border-b border-b-gray-300">万家饺子（软件园E18店）</div>
+
+      <div class="flex flex-col p-[3vw]">
+        <div class="flex items-center">
+          <img src="assets/img/sp01.png" alt="" class="w-[10vw] h-[10vw]">
+          <div class="flex justify-between mx-[3vw] w-[100vw]"> <p>纯肉鲜肉（水饺） x 2</p> <p class="mr-[-2vw]">¥15</p> </div>
+        </div>
+        <div class="flex mt-[5vw] items-center">
+          <img src="assets/img/sp02.png" alt="" class="w-[10vw] h-[10vw]">
+          <div class="flex justify-between mx-[3vw] w-[100vw]"> <p>玉米鲜肉（水饺） x 1</p> <p class="mr-[-2vw]">¥16</p>  </div>
+        </div>
+      </div>
+      <div class="flex mt-[5vw] justify-between mx-[3vw]">
+        <p>配送费</p>
+        <p class="mr-[1.5vw]">￥3</p>
+      </div>
+    </div>
+  </main>
+  <!-- 结算栏-->
+  <footer class="fixed bottom-0 w-[100vw] h-[14vw] flex text-white text-[4.5vw] font-[700]">
+    <div class="bg-[#505051] flex-[2] text-center leading-[14vw]">￥49</div>
+    <a href="payment.html" class="bg-[#38CA73] flex-1 text-center leading-[14vw]">去支付</a>
+
+  </footer>
+
+</section>
+</body>
+</html>

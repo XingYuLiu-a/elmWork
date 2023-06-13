@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>饿了么 用户登录</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="css/iconfont (1)/iconfont.css">
+
+</head>
+<body>
+<section class="flex h-[250vw] flex-col ">
+    <!--用户登录-->
+    <header class="h-[12vw] w-[100vw] bg-[#0097FF] fixed text-[5vw] text-center  leading-[12vw] text-white">
+        用户登录
+    </header>
+    <!--主要内容-->
+    <main>
+        <!--手机号，密码-->
+        <div class="flex flex-col text-[#666] font-[700] text-[3vw] mb-[3vw] mt-[15vw]">
+            <div class="flex justify-start h-[10vw] items-center pl-[3vw]">
+                手机号码: <input type="text" placeholder="手机号码" class="outline-0 ml-[5vw] text-[3vw] font-normal" >
+            </div>
+            <div class="flex justify-start h-[10vw] items-center pl-[3vw]">
+                密码: <input type="password" placeholder="密码" class="outline-0 ml-[11vw] text-[3vw] font-normal" >
+            </div>
+        </div>
+        <!--登录-->
+        <a href="#" class="mx-[3vw] text-white font-[700] flex h-[10vw] bg-[#38CA73] rounded-[5px] items-center justify-center">
+            登录
+        </a>
+        <!--注册-->
+        <a href="register.html" class=" text-[#666] font-[700] flex mx-[3vw] h-[10vw] bg-[#EEE] rounded-[5px] items-center justify-center mt-[4vw]">
+            去注册
+        </a>
+    </main>
+     <!--页脚-->
+    <footer class="bg-white fixed bottom-0 w-[100vw] flex text-gray-400 h-[14vw] border-t border-t-gray justify-around items-center text-[2.8vw]">
+        <a href="index.html" class="text-center leading-none ">
+            <i class="i ion:home text-[5vw]"></i>
+            <div>首页</div>
+        </a>
+        <a href="#" class="text-center leading-none">
+            <i class="i ph:compass-bold text-[5vw]"></i>
+            <div>发现</div>
+        </a>
+        <a href="orderList.html" class="text-center leading-none">
+            <img src="assets/img/page.svg" alt="" class="w-[6vw] h-[6vw] mb-[1vw]">
+            <div class="mb-[1vw]">订单</div>
+        </a>
+        <a href="#" class="text-center leading-none mb-[2vw]">
+            <img src="../src/assets/img/user.svg" alt="" class="w-[7vw] h-[7vw]">
+            <div>我的</div>
+        </a>
+    </footer>
+</section>
+</body>
+</html>
